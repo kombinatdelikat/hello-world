@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('OpenSans-CondensedLight.eot');
+    src: url('OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-CondensedLight.woff2') format('woff2'),
+    url('OpenSans-CondensedLight.woff') format('woff'),
+    url('OpenSans-CondensedLight.svg#webfont') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('OpenSans-CondensedBold.eot');
+    src: url('OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+    url('OpenSans-CondensedBold.woff2') format('woff2'),
+    url('OpenSans-CondensedBold.woff') format('woff'),
+    url('OpenSans-CondensedBold.svg#webfont') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}

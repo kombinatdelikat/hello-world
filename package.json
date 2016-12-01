@@ -1,29 +1,24 @@
 {
-  "name": "reveal.js",
-  "version": "3.3.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
-  "main": "js/reveal.js",
+  "name": "kdhw",
+  "version": "0.0.1",
+  "description": "Die Mikrofleischerei aus dem Magen der Dresdner Neustadt",
+  "main": "index.html",
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve"
   },
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
-  },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git@github.com:kombinatdelikat/hello-world.git",
+    "type": "git"
   },
+  "author": "David Enke <enke@kombinatdelikat.de>",
   "engines": {
-    "node": "~4.1.1"
+    "node": "~6.9.1"
   },
   "dependencies": {
     "express": "~4.13.3",
     "grunt-cli": "~0.1.13",
+    "headjs": "^1.0.3",
     "mustache": "~2.2.1",
     "socket.io": "~1.3.7"
   },
@@ -40,5 +35,6 @@
     "grunt-zip": "~0.17.1",
     "node-sass": "~3.3.3"
   },
-  "license": "MIT"
+  "private": true,
+  "license": "UNLICENCED"
 }
